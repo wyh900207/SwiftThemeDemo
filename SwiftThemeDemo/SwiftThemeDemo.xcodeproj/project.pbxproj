@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		55BB41C51E88DD0800F0E509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41C41E88DD0800F0E509 /* AppDelegate.swift */; };
-		55BB41C71E88DD0800F0E509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41C61E88DD0800F0E509 /* ViewController.swift */; };
 		55BB41CA1E88DD0800F0E509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB41C81E88DD0800F0E509 /* Main.storyboard */; };
 		55BB41CC1E88DD0800F0E509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BB41CB1E88DD0800F0E509 /* Assets.xcassets */; };
 		55BB41CF1E88DD0800F0E509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB41CD1E88DD0800F0E509 /* LaunchScreen.storyboard */; };
+		55BB41DB1E88DFF300F0E509 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41DA1E88DFF300F0E509 /* ThemeManager.swift */; };
+		55BB41DD1E88E0AE00F0E509 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41DC1E88E0AE00F0E509 /* ThemeProtocol.swift */; };
+		55BB41DF1E88E1EF00F0E509 /* WhiteTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41DE1E88E1EF00F0E509 /* WhiteTheme.swift */; };
+		55BB41E11E88E1F600F0E509 /* BlackTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41E01E88E1F600F0E509 /* BlackTheme.swift */; };
+		55BB41E31E88E20100F0E509 /* GreemTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41E21E88E20100F0E509 /* GreemTheme.swift */; };
+		55BB41E51E88E20B00F0E509 /* RedTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41E41E88E20B00F0E509 /* RedTheme.swift */; };
+		55BB41E71E88E22700F0E509 /* YellowTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41E61E88E22700F0E509 /* YellowTheme.swift */; };
+		55BB41E91E88E23000F0E509 /* BlueTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41E81E88E23000F0E509 /* BlueTheme.swift */; };
+		55BB41EB1E88E94200F0E509 /* ThemeManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41EA1E88E94200F0E509 /* ThemeManagerProtocol.swift */; };
+		55BB41ED1E88E9C100F0E509 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41EC1E88E9C100F0E509 /* SuperViewController.swift */; };
+		55BB41EF1E88EBE000F0E509 /* SuperLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41EE1E88EBE000F0E509 /* SuperLabel.swift */; };
+		55BB41F11E88EDA600F0E509 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41F01E88EDA600F0E509 /* TitleLabel.swift */; };
+		55BB41F31E88EE9900F0E509 /* DetailLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41F21E88EE9900F0E509 /* DetailLabel.swift */; };
+		55BB41F51E88EF9600F0E509 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41F41E88EF9600F0E509 /* SubView.swift */; };
+		55BB41F71E88F41800F0E509 /* ThemeSwitcherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41F61E88F41800F0E509 /* ThemeSwitcherCell.swift */; };
+		55BB41F91E88FEDB00F0E509 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB41F81E88FEDB00F0E509 /* ThemeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55BB41C11E88DD0800F0E509 /* SwiftThemeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftThemeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BB41C41E88DD0800F0E509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55BB41C61E88DD0800F0E509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55BB41C91E88DD0800F0E509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55BB41CB1E88DD0800F0E509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55BB41CE1E88DD0800F0E509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55BB41D01E88DD0800F0E509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BB41DA1E88DFF300F0E509 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		55BB41DC1E88E0AE00F0E509 /* ThemeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		55BB41DE1E88E1EF00F0E509 /* WhiteTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteTheme.swift; sourceTree = "<group>"; };
+		55BB41E01E88E1F600F0E509 /* BlackTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackTheme.swift; sourceTree = "<group>"; };
+		55BB41E21E88E20100F0E509 /* GreemTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreemTheme.swift; sourceTree = "<group>"; };
+		55BB41E41E88E20B00F0E509 /* RedTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedTheme.swift; sourceTree = "<group>"; };
+		55BB41E61E88E22700F0E509 /* YellowTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowTheme.swift; sourceTree = "<group>"; };
+		55BB41E81E88E23000F0E509 /* BlueTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueTheme.swift; sourceTree = "<group>"; };
+		55BB41EA1E88E94200F0E509 /* ThemeManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManagerProtocol.swift; sourceTree = "<group>"; };
+		55BB41EC1E88E9C100F0E509 /* SuperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		55BB41EE1E88EBE000F0E509 /* SuperLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperLabel.swift; sourceTree = "<group>"; };
+		55BB41F01E88EDA600F0E509 /* TitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		55BB41F21E88EE9900F0E509 /* DetailLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailLabel.swift; sourceTree = "<group>"; };
+		55BB41F41E88EF9600F0E509 /* SubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		55BB41F61E88F41800F0E509 /* ThemeSwitcherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSwitcherCell.swift; sourceTree = "<group>"; };
+		55BB41F81E88FEDB00F0E509 /* ThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,61 @@
 		55BB41C31E88DD0800F0E509 /* SwiftThemeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				55BB41D91E88DFD000F0E509 /* Theme */,
+				55BB41D81E88DFB100F0E509 /* ThemeManager */,
+				55BB41D71E88DFA400F0E509 /* View */,
+				55BB41D61E88DF9400F0E509 /* ViewControllers */,
 				55BB41C41E88DD0800F0E509 /* AppDelegate.swift */,
-				55BB41C61E88DD0800F0E509 /* ViewController.swift */,
 				55BB41C81E88DD0800F0E509 /* Main.storyboard */,
 				55BB41CB1E88DD0800F0E509 /* Assets.xcassets */,
 				55BB41CD1E88DD0800F0E509 /* LaunchScreen.storyboard */,
 				55BB41D01E88DD0800F0E509 /* Info.plist */,
 			);
 			path = SwiftThemeDemo;
+			sourceTree = "<group>";
+		};
+		55BB41D61E88DF9400F0E509 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55BB41EC1E88E9C100F0E509 /* SuperViewController.swift */,
+				55BB41F81E88FEDB00F0E509 /* ThemeViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55BB41D71E88DFA400F0E509 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55BB41EE1E88EBE000F0E509 /* SuperLabel.swift */,
+				55BB41F21E88EE9900F0E509 /* DetailLabel.swift */,
+				55BB41F41E88EF9600F0E509 /* SubView.swift */,
+				55BB41F61E88F41800F0E509 /* ThemeSwitcherCell.swift */,
+				55BB41F01E88EDA600F0E509 /* TitleLabel.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		55BB41D81E88DFB100F0E509 /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				55BB41DA1E88DFF300F0E509 /* ThemeManager.swift */,
+				55BB41EA1E88E94200F0E509 /* ThemeManagerProtocol.swift */,
+			);
+			name = ThemeManager;
+			sourceTree = "<group>";
+		};
+		55BB41D91E88DFD000F0E509 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				55BB41DC1E88E0AE00F0E509 /* ThemeProtocol.swift */,
+				55BB41DE1E88E1EF00F0E509 /* WhiteTheme.swift */,
+				55BB41E01E88E1F600F0E509 /* BlackTheme.swift */,
+				55BB41E21E88E20100F0E509 /* GreemTheme.swift */,
+				55BB41E41E88E20B00F0E509 /* RedTheme.swift */,
+				55BB41E61E88E22700F0E509 /* YellowTheme.swift */,
+				55BB41E81E88E23000F0E509 /* BlueTheme.swift */,
+			);
+			name = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +214,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55BB41C71E88DD0800F0E509 /* ViewController.swift in Sources */,
+				55BB41EB1E88E94200F0E509 /* ThemeManagerProtocol.swift in Sources */,
+				55BB41E71E88E22700F0E509 /* YellowTheme.swift in Sources */,
 				55BB41C51E88DD0800F0E509 /* AppDelegate.swift in Sources */,
+				55BB41DB1E88DFF300F0E509 /* ThemeManager.swift in Sources */,
+				55BB41DF1E88E1EF00F0E509 /* WhiteTheme.swift in Sources */,
+				55BB41E91E88E23000F0E509 /* BlueTheme.swift in Sources */,
+				55BB41DD1E88E0AE00F0E509 /* ThemeProtocol.swift in Sources */,
+				55BB41EF1E88EBE000F0E509 /* SuperLabel.swift in Sources */,
+				55BB41E31E88E20100F0E509 /* GreemTheme.swift in Sources */,
+				55BB41F31E88EE9900F0E509 /* DetailLabel.swift in Sources */,
+				55BB41E11E88E1F600F0E509 /* BlackTheme.swift in Sources */,
+				55BB41F91E88FEDB00F0E509 /* ThemeViewController.swift in Sources */,
+				55BB41F11E88EDA600F0E509 /* TitleLabel.swift in Sources */,
+				55BB41F51E88EF9600F0E509 /* SubView.swift in Sources */,
+				55BB41F71E88F41800F0E509 /* ThemeSwitcherCell.swift in Sources */,
+				55BB41ED1E88E9C100F0E509 /* SuperViewController.swift in Sources */,
+				55BB41E51E88E20B00F0E509 /* RedTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
